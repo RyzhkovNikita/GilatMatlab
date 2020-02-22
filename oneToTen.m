@@ -73,9 +73,14 @@ disp("32 greatest divider of 91 and 147 is " + gcd(91, 147));
 disp("32 greatest divider of 555 and 962 is " + gcd(555, 962));
 disp("33" + ( 2 ));
 disp("34" + ( 2 ));
-disp("35" + ( 2 ));
+
+P = 80000; n = 5; r = 0.13;
+disp("35 depend on rate, for r = 13%; diff = " + ( P * ( 1 + r/365 ) ^ (n * 365) / ( P * ( 1 + r/1 ) ^ (n * 1) ) ));
 disp("36" + ( 2 ));
 disp("37" + ( 2 ));
-disp("38" + ( 2 ));
+
+N = 1e6;
+disp("38a time to double infected comp-s from 10^6 - " + ( log(2*N/20)/0.15 / ( log(N/20)/0.15 ) ));
+disp("38b time for 10^6 comp-s - " + ( log(N/20)/0.15 ));
 disp("39" + ( 2 ));
 disp("40" + ( 2 ));
